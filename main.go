@@ -23,7 +23,7 @@ func main() {
 	// }
 
 	// m := t2.ToMap()
-	// fmt.Printf("square of 8 is %v", m[8])
+	// fmt.Printf("square of 8 is %v", sm[8])
 
 	// t1 := &cal.SquareRoot{}
 	// t2 := &cal.SquareRoot{}
