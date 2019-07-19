@@ -16,3 +16,15 @@ func (s *Square) Calculate(value int64) {
 func (s *Square) GetResult() int64 {
 	return s.result
 }
+
+//GetOrigin func
+func (s *Square) GetOrigin() int64 {
+	return s.origin
+}
+
+//ToMap func
+func (s *Square) ToMap() map[int64]int64 {
+	newMap := make(map[int64]int64)
+	newMap[s.origin] = s.result
+	return newMap
+}
